@@ -17,13 +17,19 @@ body {
 
 .mpont {
     color: lightslategray;
-    text-align: left;
-    font-size: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mzazi {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
 }
 
 .rmenu {
     text-align: right;
-    padding-right: 20px;
+    color: lightslategray;
 }
 
 .space {
@@ -31,7 +37,7 @@ body {
 }
 
 .map {
-    height: 300px;
+    heiht: 300px;
 }
 
 .szoveg {
