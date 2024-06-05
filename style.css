@@ -27,19 +27,40 @@ body {
     color: white;
 }
 
-.rmenu {
-    text-align: right;
-    color: lightslategray;
-}
-
 .space {
     height: 60px;
 }
 
 .map {
-    heiht: 300px;
+    height: 300px;
 }
 
 .szoveg {
     font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+    color: lightslategray;
+}
+
+.rmenu {
+    text-align: right;
+    color: white;
+}
+
+.flipp {
+    color: white;
+}
+
+.ad {
+    width: 1200px;
+}
+
+.slidekep {
+    height: 670px;
+}
+
+.pxa {
+
 }
