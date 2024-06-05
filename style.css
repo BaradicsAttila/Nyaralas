@@ -27,7 +27,7 @@ body {
     color: white;
 }
 
-.space {
+.kspace {
     height: 60px;
 }
 
@@ -57,10 +57,6 @@ body {
     width: 1200px;
 }
 
-.slidekep {
-    height: 670px;
-}
-
 .pxa {
-
+    height: 700px;
 }
