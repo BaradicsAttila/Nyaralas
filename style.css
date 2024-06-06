@@ -78,3 +78,21 @@ h2 {
 .kepelv {
     height: 24px;
 }
+
+#felcucc {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #555;
+  }
+  
+  #felcucc:hover {
+    background-color: #444;
+  }

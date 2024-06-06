@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="bootstrap.bundle.min.js"></script>
+    <script src="js.js"></script>
 </head>
 <body>
   <div class="menu row">
@@ -103,7 +104,30 @@
 
   <div class="mfent">
     <h2 id="haza">Hazajutás</h2>
-    <p class="szoveg">Hazafele már nem vonattal mentünik. Egy kedves barátom feljött értünk gépkocsival. A koncert vége előtt felhívtuk és el is indult. Hogy ne unatkozzon elhozott magával valakit. Kelenföldön egy parkolóban állt meg. Odajutás az 2 metróval történt. A hatalmas tömeget rendőrök terelték a metróállomáson nehogy valami baj történjen. Pár perc várakozás után fel szálltunk a mertora.</p>
+    <p class="szoveg">Hazafele már nem vonattal mentünik. Egy kedves barátom feljött értünk gépkocsival. A koncert vége előtt felhívtuk és el is indult. Hogy ne unatkozzon elhozott magával valakit. Kelenföldön egy parkolóban állt meg. Odajutás az 2 metróval történt. A hatalmas tömeget rendőrök terelték a metróállomáson nehogy valami baj történjen. Pár perc várakozás után fel szálltunk a mertora. Szerencsére csak egy megállót mentünk mer mesébe illően tele volt a metro. Ezután felszálltunk egy másik metróra ami már szinte üres volt szerencsére mivel ezzel kb 10 megállót mentünk. Feljöttünk a felszínre és és megpillantottuk haverom kék hondáját. Mielőtt elindultunk volna haza megpihentünk egy mekibe. Belakva neki is lendültünk az útnak. Az út gyorsan elröppent. Pogány meghökkentő tehetsége és a beszélgetés ereje csak úgy reptette az időt. </p>
   </div>
+  <div>
+    <button onclick="topFunction()" id="felcucc" title="Go to top"><img src="Images/Up.png" alt="Up" width="40"></button>
+  </div>
+
+
+  <script>
+    let mybutton = document.getElementById("felcucc"); 
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>    
 </body>
 </html>
