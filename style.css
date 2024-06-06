@@ -27,12 +27,9 @@ body {
     color: white;
 }
 
-.kspace {
-    height: 60px;
-}
-
 .map {
-    height: 300px;
+    width: 100%;
+    margin-top: 30px;
 }
 
 .szoveg {
@@ -59,4 +56,25 @@ body {
 
 .pxa {
     height: 700px;
+}
+
+.mfent {
+    margin-top: 60px;
+}
+
+.szoveg {
+    font-size: 110%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.kzazi {
+    width: 100%;
+    height: 274px;
+}
+
+.kepelv {
+    height: 24px;
 }
