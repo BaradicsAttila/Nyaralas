@@ -39,6 +39,7 @@ body {
 .link {
     text-decoration: none;
     color: lightslategray;
+    text-align: left;
 }
 
 .rmenu {
@@ -68,11 +69,16 @@ body {
 
 h2 {
     margin-bottom: 20px;
+    padding:5px;
+    padding-left: 0;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.5), 1px -1px 0 rgba(255, 255, 255, 0.5), -1px 1px 0 rgba(255, 255, 255, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 .kzazi {
     width: 100%;
     height: 274px;
+    border: white 1px solid;
 }
 
 .kepelv {
@@ -95,4 +101,43 @@ h2 {
   
   #felcucc:hover {
     background-color: #444;
+  }
+
+  h3 {
+    padding-top: 10px;
+    padding-left: 50px;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.5), 1px -1px 0 rgba(255, 255, 255, 0.5), -1px 1px 0 rgba(255, 255, 255, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.5);
+
+  }
+
+  .songs {
+    font-size: 120%;
+  }
+
+  .sdot {
+    width: 8px;
+    text-align: right;
+  }
+
+  .sback {
+    background-image: url(Images/Skatulya.png);
+    background-size: contain;
+  }
+
+  .songs {
+    font-size: 20px;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.5), 1px -1px 0 rgba(255, 255, 255, 0.5), -1px 1px 0 rgba(255, 255, 255, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.5);
+    padding-left: 20px;
+  }
+
+  .stext {
+    margin-top: 2px;
+  }
+
+  .rozsa {
+    height: 34px;
+  }
+
+  .smar {
+    margin-left: 30px;
   }
